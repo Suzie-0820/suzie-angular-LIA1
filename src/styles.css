@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+h1 {
+    text-align:center;
+    
+}
+
+h2 {
+    font-size: 2em ;
+    font-family: "Pataya", Roboto !important;
+}
+
+#SuzieEntry {
+    margin-bottom: 4em;
+}
+
+@media only screen and (min-width: 1440px){
+    .background {
+        background-image: url("movie.jpg") ;
+        background-size: cover;
+        height: 1500px; 
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .background {
+    background-image: url("movie.jpg") ;
+    background-size: cover;
+    height: 1500px; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+}
+
+@media only screen and (min-width: 320px){
+    .background {
+        background-image: url("movie.jpg") ;
+        background-size: cover;
+        height: 3000px; 
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .background {
+        background-image: url("movie.jpg") ;
+        background-size: cover; 
+        height: 1500px; 
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    }
+}
+
